@@ -1,0 +1,31 @@
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -voptargs=+acc RISC_SPM_TB 
+# Loading work.RISC_SPM_TB(fast)
+# Loading work.Clock_Unit(fast)
+# Loading work.RISC_SPM(fast)
+# Loading work.Processing_Unit(fast)
+# Loading work.Register_Unit(fast)
+# Loading work.D_flop(fast)
+# Loading work.Address_Register(fast)
+# Loading work.Program_Counter(fast)
+# Loading work.Instruction_Register(fast)
+# Loading work.Mux_5ch(fast)
+# Loading work.Mux_3ch(fast)
+# Loading work.Alu_RISC(fast)
+# Loading work.Control_Unit(fast)
+# Loading work.Memory_Unit(fast)
+add wave *
+run -all
+# ** Note: $finish    : RISC_SPM_TB.v(45)
+#    Time: 2 us  Iteration: 0  Instance: /RISC_SPM_TB
+# 1
+# Break in Module RISC_SPM_TB at RISC_SPM_TB.v line 45
