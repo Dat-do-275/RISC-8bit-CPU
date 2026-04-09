@@ -5,10 +5,6 @@ This repository contains the RTL design and verification of an 8-bit RISC micro-
 
 ## 🏗️ System Architecture
 The CPU operates on a multi-cycle Data Path and is governed by a Finite State Machine (FSM) Control Unit.
-
-*(Kéo thả file ảnh Sơ đồ khối của bạn vào dòng dưới đây)*
-![Block Diagram](Sơ đồ khối.png)
-
 **Key Modules:**
 - **ALU (Arithmetic Logic Unit):** Supports core arithmetic (ADD, SUB) and logic (AND, NOT) operations.
 - **Register File:** Includes 4 General Purpose Registers (R0 - R3), a Program Counter (PC), and an Instruction Register (IR).
